@@ -1,0 +1,88 @@
+.Page_Buy
+{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Page_Buy .Panel
+{
+    min-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.Page_Buy .happyHour
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.Page_Buy .happyHourSoon
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.Page_Buy .InputTokenAmount
+{
+    border-width: 2px;
+    border-color: var(--primary);
+    width: 100%;
+}
+
+.Page_Buy .buy
+{
+    width: 100%;
+}
+
+.Page_Buy .neonText
+{
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px var(--primary),
+        0 0 82px var(--primary),
+        0 0 92px var(--primary),
+        0 0 102px var(--primary),
+        0 0 151px var(--primary);
+    animation: happyHourPulsate 0.11s ease-in-out infinite alternate; 
+}
+  
+@keyframes happyHourPulsate
+{    
+    100%
+    {
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px var(--primary),
+        0 0 80px var(--primary),
+        0 0 90px var(--primary),
+        0 0 100px var(--primary),
+        0 0 150px var(--primary);
+    }
+
+    0%
+    {
+        text-shadow:
+        0 0 4px #fff,
+        0 0 10px #fff,
+        0 0 18px #fff,
+        0 0 38px var(--primary),
+        0 0 73px var(--primary),
+        0 0 80px var(--primary),
+        0 0 94px var(--primary),
+        0 0 140px var(--primary);
+    }
+}

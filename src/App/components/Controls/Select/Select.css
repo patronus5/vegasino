@@ -1,0 +1,20 @@
+.Select
+{
+    text-align: left;
+	height: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+    border: var(--input_border_size) solid;
+    border-color: var(--input_border_color);
+	border-radius: var(--input_radius);
+	color: var(--input);
+    font-weight: var(--weight_normal);
+    font-size: var(--size_normal);
+	background: var(--input_background);
+}
+
+.Select .Image
+{
+	width: 25px;
+	height: 25px;
+}

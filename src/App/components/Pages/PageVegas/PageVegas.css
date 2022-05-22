@@ -1,0 +1,52 @@
+.PageVegas
+{
+    display: flex;
+    grid-gap: 25px;
+    gap: 25px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.PageVegas .Panel_Info
+{
+    width: 450px;
+    text-align: center;
+}
+
+.PageVegas .Panel_Info .Image
+{
+    width: 420px;
+}
+
+.PageVegas .Panel_Info .migrate
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PageVegas .Panel_Info .migrate .Button
+{
+    width: 100%;
+}
+
+.PageVegas .Panel_Info .buy
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PageVegas .Panel_Info .buy>.Button
+{
+    width: 100%;
+}
+
+.PageVegas .InputTokenAmount
+{
+    border-width: 2px;
+    border-color: var(--primary);
+    width: 100%;
+}

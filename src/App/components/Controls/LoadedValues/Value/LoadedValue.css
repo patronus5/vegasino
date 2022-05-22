@@ -1,0 +1,17 @@
+.LoadedValue
+{
+	width: 50px;
+	animation: loadStateValueAnim 2s linear 0s infinite;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+@keyframes loadStateValueAnim
+{
+	0%   {background: rgba(50, 50, 50, 0.5)}
+	25%   {background: rgba(75, 75, 75, 0.5)}
+	50%   {background: rgba(100, 100, 100, 0.5)}
+	75%   {background: rgba(125, 125, 125, 0.5)}
+	100%   {background: rgba(50, 50, 50, 0.5)}
+}

@@ -1,0 +1,18 @@
+.ModalConnectWallet .ProviderButtons
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ModalConnectWallet .ProviderButtons .Button
+{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

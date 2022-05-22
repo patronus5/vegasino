@@ -1,0 +1,13 @@
+.ModalSelectChain .ChainButtons
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ModalSelectChain .ChainButtons .Button
+{
+    width: 150px;
+    height: 40px;	
+	text-shadow: 1px 0 0 var(--stroke), 0 1px 0 var(--stroke), -1px 0 0 var(--stroke), 0 -1px 0 var(--stroke);	
+}

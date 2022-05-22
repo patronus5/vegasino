@@ -1,0 +1,22 @@
+.ButtonBuySellToken
+{
+    display: flex;
+    align-items: center;
+}
+
+.ButtonBuySellToken SVG
+{
+    width: 24px;
+    height: 24px;
+    fill: #000;
+}
+
+.ButtonBuySellToken .buy
+{
+    background: var(--color_green);
+}
+
+.ButtonBuySellToken .sell
+{
+    background: var(--color_red);
+}

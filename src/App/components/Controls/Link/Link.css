@@ -1,0 +1,76 @@
+.Link
+{
+    cursor: pointer;
+}
+
+.Link .disabled
+{
+    cursor: not-allowed;
+}
+/*==================================
+colors
+==================================*/
+Button.Link
+{
+    background-color: transparent;
+}
+
+.Link.colorDisabled
+{
+    color: var(--grayedOut)
+} 
+
+.Link.colorPrimary
+{
+    color: var(--link)
+} 
+
+.Link.colorSecondary
+{
+    color: var(--linkSecondary)
+}
+
+.Link.colorMenu
+{
+    color: var(--linkMenu)
+}
+/*==================================
+sizes
+==================================*/
+.Link.sizeSmall
+{
+    font-size: var(--size_small)
+} 
+
+.Link.sizeNormal
+{
+    font-size: var(--size_normal)
+} 
+
+.Link.sizeBig
+{
+    font-size: var(--size_big)
+} 
+
+.Link.sizeVeryBig
+{
+    font-size: var(--size_veryBig)
+} 
+
+/*==================================
+weights
+==================================*/
+.Link.weightLight
+{
+    font-weight: var(--weight_light)
+} 
+
+.Link.weightNormal
+{
+    font-weight: var(--weight_normal)
+} 
+
+.Link.weightBold
+{
+    font-weight: var(--weight_bold)
+} 

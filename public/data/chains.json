@@ -1,0 +1,26 @@
+[	
+	{
+		"id": 56,
+		"name": "BSC",
+		"masterChef": "0xCf84A07C0a594fF3DE3D8a9700ee25f2e1fb72c8",
+		"cashier": "0x77C4b7B92f28Fcc902C61D14E6d0483f2d3A932b",
+		"presale": "0x8Fc71de01357ddD2b430484C87c3BC4c5c29E0DD",
+		"nft": "0xCAD59546014762c0093Ad704d95e1fadBDEC7793",
+		"migrator": "0xA2CB7D82F85513b7331cF78bdeaae19f6E7c4c6d",
+		"linkExplorerContract": "https://bscscan.com/address/{address}#code",
+		"linkExplorerTransaction": "https://bscscan.com/tx/{tx}",
+		"linkGasTracker": "https://bscscan.com/gastracker",
+		"stableCoin": "BUSD",
+		"coin": "BNB",
+		"wrappedCoin": "wBNB",
+		"originBlock": 11888819,
+		"blocksPerDay": 28800,
+		"gasPriceLow": 5.5,
+		"gasPriceHigh": 7,
+		"color": "#fea430",
+		"additionalSales":
+		[
+			
+		]
+	}
+]

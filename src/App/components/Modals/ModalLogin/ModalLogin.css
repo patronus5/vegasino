@@ -1,0 +1,17 @@
+.ModalLogin FORM
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.ModalLogin .user
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.ModalLogin .password
+{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,18 @@
+.ButtonConnectWallet
+{
+    width: 150px;
+}
+
+
+/*==================================
+MOBILE tweaks
+==================================*/
+@media (max-width: 600px)
+{
+    .ButtonConnectWallet
+    {
+        font-size:.8em;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}

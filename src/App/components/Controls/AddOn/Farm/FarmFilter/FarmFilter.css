@@ -1,0 +1,58 @@
+.FarmFilter
+{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 190px;
+    grid-template-areas:                
+        "name platform type"
+        "deposited . zeroBalance";
+}
+
+.FarmFilter>.Group
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 190px;
+}
+
+.FarmFilter .Input
+{
+    width: 100%;
+}
+
+.FarmFilter .Select
+{
+    width: 100%;
+}
+
+.FarmFilter .name
+{
+    grid-area: name;    
+}
+
+.FarmFilter .deposited
+{
+    grid-area: deposited;
+}
+
+.FarmFilter .zeroBalance
+{
+    grid-area: zeroBalance;
+}
+
+.FarmFilter .platform
+{
+    grid-area: platform;
+}
+
+.FarmFilter .type
+{
+    grid-area: type;
+}
+
+.FarmFilter .deposited
+{
+    grid-area: deposited;
+}

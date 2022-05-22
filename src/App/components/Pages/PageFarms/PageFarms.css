@@ -1,0 +1,17 @@
+.Page_Farms
+{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Page_Farms .Panel
+{
+    min-width: 450px;
+}
+
+.Page_Farms .noFarms
+{
+    text-align: center;
+}

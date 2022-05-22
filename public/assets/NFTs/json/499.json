@@ -1,0 +1,30 @@
+{
+  "dna": "fec5c854f9c16f593eb8a28460cc2e33462f66c9",
+  "name": "#499",
+  "description": "The Vegaliens are a race of highly intelligent humanoids landing on the Binance Smart Chain world of Las Vegas. This seems to be just a scouting mission of around 2500 Vegaliens. With their advanced brain capacity and prodigiousness in problem solving these invaders are sure to clean up at the Casinos racking in massive gains and profits! Mint them, stake them, and capture their bounty for yourselves.",
+  "image": "https://app.vegasino.io/assets/NFTs/images/499.png",
+  "edition": 499,
+  "date": 1642601229137,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Altar"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Outfit",
+      "value": "Captain"
+    },
+    {
+      "trait_type": "Head Accessories",
+      "value": "Neutron"
+    },
+    {
+      "trait_type": "Face Accessories",
+      "value": "Birdman"
+    }
+  ]
+}

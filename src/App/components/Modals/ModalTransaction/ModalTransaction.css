@@ -1,0 +1,48 @@
+.ModalTransaction .Content
+{
+    gap: 10px;
+    flex-direction: column;
+}
+
+.ModalTransaction .svgLoading
+{
+    fill: #0e8eff;
+    animation: svgLoadingSpin 2s linear 0s infinite;
+    width: 100px;
+    height: 100px;
+}
+
+.ModalTransaction .svgError
+{
+    fill: #d3142e;
+    width: 100px;
+    height: 100px;
+}
+
+.ModalTransaction .svgSuccess
+{
+    fill: #26eb51;
+    width: 100px;
+    height: 100px;
+}
+
+.ModalTransaction .svgSubmitted
+{
+    fill: var(--primary);
+    width: 100px;
+    height: 100px;
+}
+
+@keyframes svgLoadingSpin
+{
+    from
+    {
+        transform-origin: 50% 50%;
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform-origin: 50% 50%;
+        transform: rotate(360deg);
+    }
+}

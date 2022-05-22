@@ -1,0 +1,67 @@
+/*==================================
+colors
+==================================*/
+.Text.colorDisabled
+{
+    color: var(--grayedOut);
+} 
+
+.Text.colorPrimary
+{
+    color: var(--primary);
+} 
+
+.Text.colorSecondary
+{
+    color: var(--secondary);
+}
+/*==================================
+sizes
+==================================*/
+.Text.sizeSuperSmall
+{
+    font-size: var(--size_superSmall);
+}
+
+.Text.sizeVerySmall
+{
+    font-size: var(--size_verySmall)
+} 
+
+.Text.sizeSmall
+{
+    font-size: var(--size_small)
+} 
+
+.Text.sizeNormal
+{
+    font-size: var(--size_normal)
+} 
+
+.Text.sizeBig
+{
+    font-size: var(--size_big)
+} 
+
+.Text.sizeVeryBig
+{
+    font-size: var(--size_veryBig)
+} 
+
+/*==================================
+weights
+==================================*/
+.Text.weightLight
+{
+    font-weight: var(--weight_light)
+} 
+
+.Text.weightNormal
+{
+    font-weight: var(--weight_normal)
+} 
+
+.Text.weightBold
+{
+    font-weight: var(--weight_bold)
+} 

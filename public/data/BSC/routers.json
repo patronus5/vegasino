@@ -1,0 +1,9 @@
+[	
+	{
+		"id": "Pancake",
+		"contract": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+		"linkSwap": "https://pancakeswap.finance/swap?inputCurrency={from}&outputCurrency={to}",
+		"linkAddLiquidity": "https://pancakeswap.finance/liquidity",
+		"linkRemoveLiquidity": "https://pancakeswap.finance/liquidity"
+	}
+]

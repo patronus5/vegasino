@@ -1,0 +1,11 @@
+.ButtonTokenPrice
+{
+    width: 150px;
+    justify-content: space-between;
+}
+
+.ButtonTokenPrice .TokenIcon
+{
+    width: 24px;
+    height: 24px;
+}

@@ -1,0 +1,96 @@
+.PageHome
+{
+    display: flex;
+    grid-gap: 25px;
+    gap: 25px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.PageHome .Panel_Info
+{
+    width: 600px;
+    text-align: center;
+}
+
+.Panel_Info .logo
+{
+    width: 500px;
+}
+/*==================================
+links
+==================================*/
+.Panel_Info .links
+{
+    text-align: center;
+}
+
+.Panel_Info .links .LinkGroup
+{
+    display: flex;
+    justify-content: center;
+}
+
+.Panel_Info .links .LinkGroup .Link
+{
+   display: flex;
+   align-items: center;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.Panel_Info .links .LinkGroup .Link .svgLink
+{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+/*==================================
+stats
+==================================*/
+.Panel_Info .stats
+{
+    text-align: center;
+}
+
+.Panel_Info .stats .StatsTables
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Panel_Info .stats .StatsTable
+{
+    width: 250px;
+}
+
+.Panel_Info .stats .name
+{
+    text-align: left;
+}
+
+.Panel_Info .stats .value
+{
+    text-align: right;
+}
+/*==================================
+charts
+==================================*/
+.PageHome .Panel_Charts
+{
+    width: 600px;
+    text-align: center;
+}
+
+.Panel_Charts .charts
+{
+    text-align: center;
+    width: 100%
+}
+
+.Panel_Charts .charts .header
+{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

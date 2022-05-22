@@ -1,0 +1,7 @@
+.Panel
+{
+    padding: 10px;
+    border: var(--panel_border_size) solid;
+    border-radius: var(--panel_radius);
+    background-color: var(--panel);
+}

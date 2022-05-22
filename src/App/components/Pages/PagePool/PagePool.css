@@ -1,0 +1,17 @@
+.Page_Pool
+{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Page_Pool .Panel
+{
+    min-width: 450px;
+}
+
+.Page_Pool .noPool
+{
+    text-align: center;
+}

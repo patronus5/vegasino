@@ -1,0 +1,63 @@
+.Button
+{
+    height: var(--button-height);
+    border: var(--button_border_size) solid;
+    border-color: var(--button_border_color);
+    border-radius: var(--button_radius);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    font-weight: bold;
+    color: var(--button_color);
+    background-color: var(--button_background);
+    text-shadow: var(--button_stroke);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Button.stylePrimary
+{
+    color: var(--button_colorPrimary);
+    background-color: var(--button_backgroundPrimary);
+    text-shadow: var(--button_strokePrimary);
+}
+
+.Button.disabled
+{
+    cursor: not-allowed;
+}
+
+/*==================================
+sizes
+==================================*/
+.Button.sizeSuperSmall
+{
+    font-size: var(--size_superSmall);
+}
+
+.Button.sizeVerySmall
+{
+    font-size: var(--size_verySmall)
+} 
+
+.Button.sizeSmall
+{
+    font-size: var(--size_small)
+} 
+
+.Button.sizeNormal
+{
+    font-size: var(--size_normal)
+} 
+
+.Button.sizeBig
+{
+    font-size: var(--size_big)
+} 
+
+.Button.sizeVeryBig
+{
+    font-size: var(--size_veryBig)
+} 

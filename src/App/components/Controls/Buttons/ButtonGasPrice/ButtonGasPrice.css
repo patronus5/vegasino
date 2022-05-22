@@ -1,0 +1,28 @@
+.ButtonGasPrice
+{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ButtonGasPrice SVG
+{
+    margin-right: 10px;
+}
+
+.ButtonGasPrice.low SVG
+{
+    fill: rgb(38, 191, 64)  !important;
+}
+
+.ButtonGasPrice.medium SVG
+{
+    fill: #ffae00 !important;
+}
+
+.ButtonGasPrice.high SVG
+{
+    fill: rgb(197, 40, 62) !important;
+}

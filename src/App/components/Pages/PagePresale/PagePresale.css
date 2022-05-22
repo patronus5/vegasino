@@ -1,0 +1,72 @@
+.PagePresale
+{
+    display: flex;
+    grid-gap: 25px;
+    gap: 25px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.PagePresale .Panel_Info
+{
+    width: var(--base-min-width);
+    max-width: var(--base-max-width);
+    text-align: center;
+}
+
+.PagePresale .buyInfo
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.PagePresale .info
+{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.PagePresale .info .stat
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.PagePresale .buy
+{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.PagePresale .buy .Input
+{
+    border-color: var(--primary);
+    text-align: right;
+}
+
+.PagePresale .WhitelistSlot .value
+{
+    display: flex;
+}
+
+.PagePresale .hasWhitelist
+{
+    fill: var(--color_green);
+    width: 25px;
+    height: 25px;
+}
+
+.PagePresale .hasNoWhitelist
+{
+    fill: var(--color_red);
+    width: 20px;
+    height: 20px;
+}

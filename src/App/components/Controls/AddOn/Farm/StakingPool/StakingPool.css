@@ -1,0 +1,211 @@
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.place-items-center {
+    place-items: center;
+}
+
+.space-y-3 > * + * {
+    margin-top: 0.75rem;
+}
+
+.card-group {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 978px) {
+    .card-group {
+        flex-direction: column;
+    }
+}
+
+.z-0 {
+    z-index: 0;
+}
+
+.z-10 {
+    z-index: 0;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+.frame {
+    padding: 70px 15px 20px 15px;
+    width: 404px;
+    height: 700px;
+    box-sizing: content-box;
+    margin: 0 10px;
+}
+
+.card {
+    border-radius: var(--window_radius);
+    border: 2px solid;
+    padding: 30px 15px 20px 15px;
+    width: 404px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    margin: 0 10px;
+}
+
+.card h1 {
+    font-size: 1rem;
+}
+
+.card button {
+    border-color: var(--primary) !important;
+    height: var(--button-height);
+    border: var(--button_border_size) solid;
+    border-radius: var(--button_radius);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    font-weight: bold;
+    color: var(--button_color);
+    background-color: var(--button_background);
+    text-shadow: var(--button_stroke);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .title {
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;;
+    font-size: 2rem;
+    border-bottom: 2px solid;
+    border-color: yellow;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.h-full {
+    width: 100%;
+}
+
+.Staking-Pool {
+    display: flex;
+    flex-direction: row;
+    box-sizing: content-box;
+}
+
+.FarmCard
+{    
+    border-radius: var(--window_radius);
+    border: 2px solid;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    margin: 0 10px;
+}
+
+.FarmCard .FarmHeader
+{
+    padding: 10px;
+}
+
+.FarmCard .FarmInfoGroup
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.FarmCard .FarmInfoGroup .groupName .Text
+{
+    display: flex;
+}
+
+.FarmCard .claimDepositWithdraw
+{
+    display: flex;
+}
+/*==================================
+deposit/withdraw
+==================================*/
+.FarmCard .depositWithdraw
+{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FarmCard .depositWithdraw BUTTON
+{
+    width: 140px;
+}
+/*==================================
+claim
+==================================*/
+.FarmCard .claim
+{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.FarmCard .claim BUTTON
+{
+    height: 80px;
+    width: 140px;
+}
+
+.FarmCard .compound
+{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+/*==================================
+profit/loss
+==================================*/
+.FarmCard .profit
+{
+	color: var(--color_green);
+}
+
+.FarmCard .loss
+{
+	color: var(--color_red);
+}

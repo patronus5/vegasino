@@ -1,0 +1,23 @@
+.ModalFarmWithdraw .content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ModalFarmWithdraw .content>.Text
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ModalFarmWithdraw .InputTokenAmount
+{
+    width: 100%;
+}
+
+.ModalFarmWithdraw .ProgressBarFarmBreakEven
+{
+    margin-top: 1rem;
+    width: 100%;
+}

@@ -1,0 +1,12 @@
+.ModalProfitCalculator .content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ModalProfitCalculator .content .Text
+{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

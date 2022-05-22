@@ -1,0 +1,76 @@
+.ModalOverlay
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--weight_bold);
+    font-family: var(--font);
+}
+
+.ModalContent
+{
+    background-color: var(--window);
+    border: 2px solid;
+    border-color: var(--primary);
+    border-radius: var(--window_radius);
+}
+
+.ModalContent.sizeNormal
+{
+    width: 400px;
+}
+
+.ModalContent.sizeLarge
+{
+    width: 800px;
+}
+
+.ModalContainer .Header
+{
+    padding: 0.5rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    border-top-left-radius: var(--window_radius);
+    border-top-right-radius: var(--window_radius);
+    position: relative;
+}
+
+.ModalContainer .Header .close
+{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.ModalContainer .Content
+{    
+    padding: 0.5rem;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ModalContainer .Footer
+{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: var(--window_radius);
+    border-bottom-right-radius: var(--window_radius);
+}
+
+.ModalButton
+{
+    height: 35px;
+    width: 150px;
+}

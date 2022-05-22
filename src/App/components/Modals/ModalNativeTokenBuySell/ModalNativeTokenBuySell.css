@@ -1,0 +1,9 @@
+.ModalNativeTokenBuySell .Footer
+{
+    flex-direction: column;
+}
+
+.ModalNativeTokenBuySell .ModalButton
+{
+    width: 250px;
+}

@@ -1,0 +1,12 @@
+#General
+build/
+node_modules/
+.*.sw*
+*.orig
+**/NFTs/**/*.png
+
+
+#Configs that must stay secret
+**/secrets.php
+**/config.php
+configs/

@@ -1,0 +1,153 @@
+/*==================================
+variables
+==================================*/
+:root
+{
+    --font: montserrat; 
+    --primary: #ffe500;
+    --secondary: #f5f5f5;
+    --colorMenu: #000;
+    --grayedOut: #607068;
+    --link: #ffe500;
+    --linkSecondary: #f5f5f5;
+    --linkMenu: #000;
+    --background: #000000;    
+    --scroll: #ffe500;
+    --secondary-dark: #757575;
+    --stroke: #000;
+
+    --page_background: #000;
+    --nav_background: var(--primary); 
+
+    --button-height: 35px;
+    --button_background: #000;    
+    --button_color: var(--primary);
+    --button_stroke: 0px 0 0 var(--stroke);
+    --button_backgroundPrimary: var(--primary);    
+    --button_colorPrimary: #000;
+    --button_strokePrimary: 0px 0 0 var(--stroke);
+    --button_border_color: #000;
+    --button_border_size: 2px;
+    --button_radius: 10px;
+
+    --panel: #000;
+    --panel_radius: 10px;
+    --panel-border_color: var(--primary);
+    --panel_border_size: 2px;
+    
+    --window: rgb(39, 38, 44);
+    --window_light: rgb(59, 58, 64);
+    --window_radius: 10px;
+
+    --input: rgb(227, 252, 240);
+    --input_background: #000;
+    --input_border_color: #000;
+    --input_border_size: 2px;
+    --input_radius: 10px;
+
+    --size_superSmall: 0.6rem;
+    --size_verySmall: 0.7rem;
+    --size_small: 0.8rem;
+    --size_normal: 1.0rem;
+    --size_big: 1.5rem;
+    --size_veryBig: 3rem;
+    --size_menuActive: 1.2rem;
+
+    --weight_light: normal; 
+    --weight_normal: bold;
+    --weight_bold: bolder;
+
+    --color_green: rgb(38, 191, 64);
+    --color_red: rgb(197, 40, 62);    
+
+    --evenOdd: rgba(200, 200, 200, 0.1);
+}
+
+.ButtonConnectWallet
+{
+    background: var(--button_background) !important;
+    color: var(--primary) !important;
+}
+
+BODY
+{
+    background-image: url("https://app.nevada.casino/background-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000
+}
+
+MAIN
+{
+    background-color: transparent;
+}
+
+.Menu .logo
+{
+    display: none;
+}
+
+.TemplateMoonVault
+{
+    background-color: transparent;
+}
+
+.PageHome .Panel_Info
+{
+    padding-bottom: 50px;
+    background-color: transparent;
+}
+
+.PageHome .Migrate
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FarmCard
+{    
+    /* border-radius: 0px;
+    border: 0px solid; */
+    padding-top: 40px;
+    width: 404px;
+    height: 805px;
+    background-image: url("https://app.nevada.casino/king2.png");
+}
+
+.FarmCard .FarmHeader
+{
+    display: none;
+}
+
+.FarmCard BUTTON
+{
+    border-color: var(--primary) !important;
+}
+
+.FarmCard .FarmInfoGroup
+{
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;    
+}
+
+/* .FarmCard .apr
+{
+    padding-top: 40px;
+} */
+
+.FarmCard .claimDepositWithdraw
+{
+    position: relative;
+    top: 455px;
+    justify-content: center;
+}
+
+.FarmCard .compound
+{
+    width: 100%;
+    position: relative;
+    top: 460px;
+    justify-content: center;
+}

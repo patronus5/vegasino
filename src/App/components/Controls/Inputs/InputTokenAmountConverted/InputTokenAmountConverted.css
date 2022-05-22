@@ -1,0 +1,99 @@
+.InputTokenAmountConverted
+{	
+	position: relative;
+	display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: space-between;
+	height: 75px;
+	border: var(--input_border_size) solid;
+    border-color: var(--input_border_color);
+	border-radius: var(--input_radius);
+	color: var(--input);
+    font-weight: bold;
+	background: var(--input_background);
+}
+
+.InputTokenAmountConverted.Icon
+{
+	height: 95px;
+}
+
+.InputTokenAmountConverted .LabelContainer
+{
+	transform: rotate(-90deg);
+	transform-origin: top left;
+	position: absolute;
+    bottom: -28px;
+    left: -29px;
+}
+
+.InputTokenAmountConverted .icons
+{
+	position: relative;
+    top: -10px;
+}
+
+.InputTokenAmountConverted .converted
+{	
+	font-size: var(--size_small);
+	background: transparent;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: right;
+}
+
+.InputTokenAmountConverted .inputContainer
+{	
+	display: flex;
+	justify-content: space-between;
+	background: transparent;
+}
+
+.InputTokenAmountConverted .icons
+{
+	margin-left: 5px;
+}
+
+.InputTokenAmountConverted .Input
+{
+	text-align: right;
+	height: 40px;
+	border: 0px;
+    background: transparent;
+	padding-right: 10px;
+    font-weight: bold;
+	color: var(--input);
+}
+
+.InputTokenAmountConverted .info
+{
+	display: flex;
+    align-items: center;
+}
+
+.InputTokenAmountConverted .Button
+{
+	height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: initial !important;
+}
+
+.InputTokenAmountConverted .AddButton
+{
+	font-size: var(--size_small);
+	position: absolute;
+    right: 10px;
+    bottom: -1px;
+}
+
+.InputTokenAmountConverted .AddButton BUTTON
+{
+	background: transparent;
+	border: 0px;
+	font-size: var(--size_small);
+	color: var(--secondary-dark);
+	cursor: pointer;
+	font-weight: bold;
+}

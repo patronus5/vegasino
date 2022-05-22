@@ -1,0 +1,125 @@
+.ModalFarmDeposit .content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ModalFarmDeposit .content>.Text
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ModalFarmDeposit .InputTokenAmountCustom
+{
+    width: 100%;
+}
+
+.ModalFarmDeposit .ProgressBarFarmBreakEven
+{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.InputTokenAmountCustom
+{	
+	position: relative;
+	display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: space-between;
+	height: 60px;
+	border: var(--input_border_size) solid;
+    border-color: var(--input_border_color);
+	border-radius: var(--input_radius);
+	color: var(--input);
+    font-weight: bold;
+	background: var(--input_background);
+}
+
+.InputTokenAmountCustom.Icon
+{
+	height: 95px;
+}
+
+.InputTokenAmountCustom .LabelContainer
+{
+	transform: rotate(-90deg);
+	transform-origin: top left;
+	position: absolute;
+    bottom: -28px;
+    left: -29px;
+}
+
+.InputTokenAmountCustom .icons
+{
+	position: relative;
+    top: -10px;
+}
+
+.InputTokenAmountCustom .available
+{	
+	font-size: var(--size_small);
+	background: transparent;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: right;
+}
+
+.InputTokenAmountCustom .inputContainer
+{	
+	display: flex;
+    width: 100%;
+	justify-content: space-between;
+    align-items: center;
+	background: transparent;
+}
+
+.InputTokenAmountCustom .icons {
+	margin-left: 5px;
+}
+
+.InputTokenAmountCustom .Input
+{
+	text-align: right;
+	height: 60px;
+    width: 100%;
+	border: 0px;
+    background: transparent;
+	padding-right: 10px;
+    font-weight: bold;
+	color: var(--input);
+}
+
+.InputTokenAmountCustomConverted .info
+{
+	display: flex;
+    align-items: center;
+}
+
+.InputTokenAmountCustom .Button
+{
+	height: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: initial !important;
+}
+
+.InputTokenAmountCustom .AddButton
+{
+	font-size: var(--size_small);
+	position: absolute;
+    right: 10px;
+    bottom: -1px;
+}
+
+.InputTokenAmountCustom .AddButton BUTTON
+{
+	background: transparent;
+	border: 0px;
+	font-size: var(--size_small);
+	color: var(--secondary-dark);
+	cursor: pointer;
+	font-weight: bold;
+}

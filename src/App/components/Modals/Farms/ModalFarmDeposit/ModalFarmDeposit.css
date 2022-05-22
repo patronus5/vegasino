@@ -1,0 +1,24 @@
+.ModalFarmDeposit .content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ModalFarmDeposit .content>.Text
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ModalFarmDeposit .InputTokenAmount
+{
+    width: 100%;
+}
+
+.ModalFarmDeposit .ProgressBarFarmBreakEven
+{
+    margin-top: 1rem;
+    width: 100%;
+}
+

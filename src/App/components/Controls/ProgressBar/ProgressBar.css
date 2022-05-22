@@ -1,0 +1,86 @@
+.ProgressBar
+{
+    background: var(--input_background);
+    border: var(--input_border_size) solid;
+    border-color: var(--input_border_color);
+    border-radius: var(--input_radius);
+    padding: 0.5rem;
+}
+
+.ProgressBar .legend
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ProgressBar INPUT
+{
+    -webkit-appearance: none;
+}
+
+.ProgressBar .legendContainer
+{
+    height: 75px;
+    width: 30%;
+    border: var(--input_border_size) solid;
+    border-color: var(--progressBar_yellow);
+    border-radius: var(--input_radius);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.ProgressBar .legendContainer .Text
+{
+    text-align: center;
+}
+
+.ProgressBar .infoText
+{
+    text-align: center;
+}
+/*==================================
+colors
+==================================*/
+:root
+{
+    --progressBar_current: #3498db; 
+    --progressBar_red: rgb(197, 40, 62); 
+    --progressBar_yellow: #ffae00; 
+    --progressBar_green: rgb(38, 191, 64); 
+}
+/*==================================
+thumb
+==================================*/
+.ProgressBar INPUT::-webkit-slider-thumb
+{
+    margin-top: -1.5px;
+    width: 5px;
+    height: 20px;
+    background: var(--progressBar_current);
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+.ProgressBar INPUT::-moz-range-thumb
+{
+    width: 5px;
+    height: 20px;
+    background: var(--progressBar_current);
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ProgressBar INPUT::-ms-thumb
+{
+    width: 5px;
+    height: 20px;
+    background: var(--progressBar_current);
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0px;
+    /*Needed to keep the Edge thumb centred*/
+}

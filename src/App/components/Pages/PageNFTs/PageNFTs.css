@@ -1,0 +1,55 @@
+.PageNFTs
+{
+    display: flex;
+    grid-gap: 25px;
+    gap: 25px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.PageNFTs .Panel_Info
+{
+    width: var(--base-min-width);
+    max-width: var(--base-max-width);
+    text-align: center;
+}
+
+.PageNFTs > .Group
+{
+    text-align: center;    
+}
+
+.PageNFTs .Panel_singleNFT
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.PageNFTs .Panel_singleNFT IMG
+{
+    height: 400px;
+    width: 511px;
+}
+
+.PageNFTs .Panel_singleNFT .attributeGroup
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.PageNFTs .nftList
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.PageNFTs .nftList IMG
+{
+    height: 250px;
+    width: 320px;
+}

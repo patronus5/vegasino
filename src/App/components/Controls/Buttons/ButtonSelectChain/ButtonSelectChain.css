@@ -1,0 +1,57 @@
+.ButtonSelectChain
+{
+    width: 150px;
+    color: #fff;
+	cursor: pointer;
+	text-shadow: 1px 0 0 var(--stroke), 0 1px 0 var(--stroke), -1px 0 0 var(--stroke), 0 -1px 0 var(--stroke);	
+	border-color: #000;
+}
+
+.chain_NONE
+{	
+	color: #fff;
+	background: var(--window);
+	font-size: 0.75em;
+}
+
+.chain_BSC
+{	
+	color: #fff;
+	background-color: #fea430 !important;
+}
+
+.chain_Polygon
+{
+	color: #fff;
+	background-color: #6236ff !important;
+}
+
+.chain_Harmony
+{
+	color: #fff;
+	background-color: #00aee9 !important;
+}
+
+.chain_Fantom
+{
+	color: #fff;
+	background-color: #1969ff !important;
+}
+
+.chain_Cronos
+{
+	color: #fff;
+	background-color: #051221 !important;
+}
+
+.chain_Moonriver
+{
+	color: #fff;
+	background-color: #5013ac !important;
+}
+
+.chain_Avalanche
+{
+	color: #fff;
+	background-color: #e84142 !important;
+}

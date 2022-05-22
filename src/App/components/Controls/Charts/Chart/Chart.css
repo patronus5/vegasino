@@ -1,0 +1,14 @@
+.Chart
+{
+	z-index: 0;
+	background: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+}
+
+.Chart .chartLabels
+{
+	color: var(--secondary);
+    font-weight: var(--weight_bold);
+    font-family: var(--font);
+	font-size: var(--size_small);
+}

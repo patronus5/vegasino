@@ -1,0 +1,9 @@
+.ButtonLoginLogout .login
+{
+    fill: var(--primary)
+}
+
+.ButtonLoginLogout .logout
+{
+    fill: var(--background)
+}

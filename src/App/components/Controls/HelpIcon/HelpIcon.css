@@ -1,0 +1,94 @@
+.HelpIcon
+{
+}
+
+.HelpIcon .svgLink 
+{
+    height: 20px;
+    width: 20px;
+
+    top: 4px;
+    position: relative;
+    left: 2px;
+
+    z-index: 0;
+}
+
+.HelpIcon .popper
+{
+    z-index: 1;
+    background-color: var(--window);
+    border: 2px solid;
+    border-color: var(--primary);
+    border-radius: var(--window_radius);
+    padding: 5px 10px;
+    font-weight: normal;
+    color: var(--secondary);
+    font-size: var(--size_normal);
+}
+
+.HelpIcon .arrow
+{
+    /* 
+    width: 8px;
+    height: 8px;
+    background: inherit;
+    background-color: var(--primary);
+    z-index: 0; */
+
+    position: absolute;
+    width: 0; 
+    height: 0; 
+}
+
+/* .HelpIcon .arrow 
+{
+    visibility: hidden;
+}
+
+.HelpIcon .arrow::before 
+{
+    visibility: visible;
+    content: '';
+    transform: rotate(45deg);
+} */
+
+.HelpIcon .popper[data-popper-placement^='top'] > .arrow 
+{
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    
+    border-top: 10px solid var(--primary);
+
+    bottom: -11px;
+}
+  
+.HelpIcon .popper[data-popper-placement^='bottom'] > .arrow 
+{
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    
+    border-bottom: 10px solid var(--primary);
+
+    top: -11px;
+}
+  
+.HelpIcon .popper[data-popper-placement^='left'] > .arrow 
+{
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    
+    border-left: 10px solid var(--primary);
+
+    right: -11px;
+}
+  
+.HelpIcon .popper[data-popper-placement^='right'] > .arrow 
+{
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    
+    border-right: 10px solid var(--primary);
+
+    left: -11px;
+}

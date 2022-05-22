@@ -1,0 +1,122 @@
+.FarmView
+{
+    display: flex;
+    background-color: var(--window); 
+    border-radius: var(--button_radius);
+}
+
+@media (max-width: 850px)
+{
+    .FarmView
+    {
+        width: 450px;
+        display: grid;
+        grid-template-columns: 150px;
+        grid-template-areas:
+            "header header depositWithdraw"
+            "userDeposit dailyROI claim";
+    }    
+}
+
+.FarmView .FarmInfoGroup
+{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.FarmView .FarmInfoGroup .groupName .Text
+{
+    display: flex;
+}
+/*==================================
+grid
+==================================*/
+@media (max-width: 1000px)
+{    
+    .FarmView .tvl
+    {
+        display: none;        
+    }
+}
+
+@media (max-width: 850px)
+{
+    .FarmView .FarmHeader
+    {
+        width: 300px;
+        justify-content: center;
+    }
+}
+
+.FarmView .FarmHeader
+{
+    grid-area: header;
+}
+
+.FarmView .tvl
+{
+    grid-area: tvl;
+}
+
+.FarmView .dailyROI
+{
+    grid-area: dailyROI;
+}
+
+.FarmView .depositWithdraw
+{
+    grid-area: depositWithdraw;
+}
+
+.FarmView .claim
+{
+    grid-area: claim;
+}
+
+.FarmView .userDeposit
+{
+    grid-area: userDeposit;
+}
+/*==================================
+deposit/withdraw
+==================================*/
+.FarmView .depositWithdraw
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FarmView .depositWithdraw BUTTON
+{
+    width: 140px;
+}
+/*==================================
+claim
+==================================*/
+.FarmView .claim
+{
+    display: flex;
+    justify-content: center;
+}
+
+.FarmView .claim BUTTON
+{
+    height: 80px;
+    width: 140px;
+}
+/*==================================
+claim
+==================================*/
+.FarmView .profit
+{
+	color: var(--color_green);
+}
+
+.FarmView .loss
+{
+	color: var(--color_red);
+}
